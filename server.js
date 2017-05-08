@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const User = require('./models/users');
 
 app.get('/', (req, res) => {
   res.send('This is the root page.');
