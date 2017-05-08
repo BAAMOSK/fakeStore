@@ -1,10 +1,10 @@
 {
   "name": "fakeStore",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,14 @@
     "mongoose": "^4.9.8",
     "morgan": "^1.8.1",
     "nodemon": "^1.11.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baamosk/fakestore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/baamosk/fakestore/issues"
+  },
+  "homepage": "https://github.com/baamosk/fakestore#readme",
+  "description": ""
 }
